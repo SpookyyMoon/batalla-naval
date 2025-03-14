@@ -1,0 +1,233 @@
+#tablero{
+    display: grid;
+    width: 38em;
+    height: 38em;
+
+    background: rgb(57, 228, 240);
+}
+    /*FILA A*/
+    #a1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #a2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #a3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #a4{
+        grid-column-start: 4;
+        grid-column-end: 5;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #a5{
+        grid-column-start: 5;
+        grid-column-end: 6;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #a6{
+        grid-column-start: 6;
+        grid-column-end: 7;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #a7{
+        grid-column-start: 7;
+        grid-column-end: 8;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #a8{
+        grid-column-start: 8;
+        grid-column-end: 9;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #a9{
+        grid-column-start: 9;
+        grid-column-end: 10;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #a10{
+        grid-column-start: 10;
+        grid-column-end: 11;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    /*FILA B*/
+    #b1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #b2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #b3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #b4{
+        grid-column-start: 4;
+        grid-column-end: 5;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #b5{
+        grid-column-start: 5;
+        grid-column-end: 6;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #b6{
+        grid-column-start: 6;
+        grid-column-end: 7;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #b7{
+        grid-column-start: 7;
+        grid-column-end: 8;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #b8{
+        grid-column-start: 8;
+        grid-column-end: 9;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #b9{
+        grid-column-start: 9;
+        grid-column-end: 10;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #b10{
+        grid-column-start: 10;
+        grid-column-end: 11;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    
+    /*FILA B*/
+    #c1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #c2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #c3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #c4{
+        grid-column-start: 4;
+        grid-column-end: 5;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #c5{
+        grid-column-start: 5;
+        grid-column-end: 6;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #c6{
+        grid-column-start: 6;
+        grid-column-end: 7;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #c7{
+        grid-column-start: 7;
+        grid-column-end: 8;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #c8{
+        grid-column-start: 8;
+        grid-column-end: 9;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #c9{
+        grid-column-start: 9;
+        grid-column-end: 10;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #c10{
+        grid-column-start: 10;
+        grid-column-end: 11;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+.cuadro{
+    background: rgb(133, 170, 240);
+    border-style: ridge;
+    border-color: rgb(253, 0, 0);
+
+    width: 3em;
+    height: 3em;
+    
+}
